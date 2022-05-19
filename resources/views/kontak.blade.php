@@ -66,15 +66,20 @@
 
         </div>
 
-
-    <!--bener-->
-    <div class="banner">
+        <!--kontak-->
+        <section class="kontak">
         <div class="container">
-            <h2>UNIT KEGIATAN MAHASISWA</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <h3>KONTAK KAMI</h3>
+            <div class="box">
+                <div class="col-4">
+                    <div class="icon"></div>
+                    <h4>Hubungi kami</h4>
+                    <h5>no telp:087289901</h5>
+                    <h6>email</h6>
+                </div>
+            </div>
         </div>
-    </div>
-
+    </section>
 </body>
 
 </html>
