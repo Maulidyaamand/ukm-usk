@@ -10,13 +10,30 @@
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+        <style>
+            #container{
+                display:flex;
+                flex-direction: row;
+            }
+            
+            .item{
+                background-image:url('../public/assets/images/agama.jpg');
+                border: #000 solid 1px;
+                padding: 1rem;
+                text-align: center;
+                margin: 10px;
+            }
+
+    
+        </style>
 </head>
+
 
 <body>
 
     <header>
         <div class="navbar">
-            <h1><a href="index.html">UKM</a></h1>
+        <h1><a href="#"><img src="assets/images/logo.jpg" height="60"></a></h1>
 
             <ul>
                 <li class="active"><a href="#">Beranda</a></li>
@@ -66,6 +83,15 @@
             <h2>UNIT KEGIATAN MAHASISWA</h2>
         </div>
     </div>
-</body>
+    
+    <div class="flex-container">
+        <div class="item">
+            <div class="item-1"><h3>Bela diri</h3></div>
+            <div class="item-2"><h3>Olahraga</h3></div>
+            <div class="item-3"><h3>Olahraga</h3></div>
 
+        </div>
+    
+    </div> 
+</body>
 </html>

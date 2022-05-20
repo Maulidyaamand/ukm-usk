@@ -12,6 +12,9 @@ a {
 .navbar {
     background: #fff;
     text-align: center;
+    height: 70px;
+    width: 100%;
+    position: fixed;
 
 }
 
@@ -92,6 +95,7 @@ a {
 
 header h1 {
     float: left;
+    top: 0px;
 }
 
 .banner {
@@ -102,6 +106,7 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .banner:after {

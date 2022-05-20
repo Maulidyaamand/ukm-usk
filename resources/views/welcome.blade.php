@@ -23,7 +23,7 @@
 <body>
 
         <div class="navbar">
-            <h1><a href="index.html"><img src="assets/images/logo.jpeg" height="60"></a></h1>
+            <h1><a href="index.html"><img src="assets/images/logo.jpg" height="60"></a></h1>
 
             <ul>
                 <li class="active"><a href="#">Beranda</a></li>
